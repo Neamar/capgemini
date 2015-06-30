@@ -24,23 +24,39 @@
             android:layout_height="match_parent"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:src="@drawable/menu_home"/>
+            android:src="@drawable/ico_home"/>
 
         <ImageView
-            android:id="@+id/menu_about"
+            android:id="@+id/menu_news"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:src="@drawable/menu_about"/>
+            android:src="@drawable/ico_news"/>
 
 
         <ImageView
-            android:id="@+id/menu_mentions"
+            android:id="@+id/menu_programme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:src="@drawable/menu_mentions"/>
+            android:src="@drawable/ico_programme"/>
+
+        <ImageView
+            android:id="@+id/menu_ase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/ico_ase"/>
+
+        <ImageView
+            android:id="@+id/menu_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/ico_profil"/>
     </LinearLayout>
 </LinearLayout>

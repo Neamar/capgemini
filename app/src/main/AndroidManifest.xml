@@ -21,11 +21,19 @@
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".AboutActivity"
+            android:name=".NewsActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".MentionActivity"
+            android:name=".AseActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ProgramActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
             android:label="@string/app_name" >
         </activity>
     </application>
