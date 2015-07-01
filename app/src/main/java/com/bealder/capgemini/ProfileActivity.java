@@ -1,22 +1,20 @@
 package com.bealder.capgemini;
 
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 
-public class ProfileActivity extends Activity {
+public class ProfileActivity extends WebViewActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_webview);
 
         new MixinMenuActivity().addMenuListeners(this);
 
-        WebView webView = (WebView) findViewById(R.id.webView);
-        webView.loadUrl("file:///android_asset/mentions.html");
+        webView.loadUrl("https://www.google.fr/search?q=profile");
 
     }
 }

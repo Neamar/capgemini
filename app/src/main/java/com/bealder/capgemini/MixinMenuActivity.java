@@ -21,10 +21,10 @@ public class MixinMenuActivity {
             addMenuListener(currentActivity, R.id.menu_ase, AseActivity.class);
         }
         if (!(currentActivity instanceof ProgramActivity)) {
-            addMenuListener(currentActivity, R.id.menu_ase, ProgramActivity.class);
+            addMenuListener(currentActivity, R.id.menu_programme, ProgramActivity.class);
         }
         if (!(currentActivity instanceof ProfileActivity)) {
-            addMenuListener(currentActivity, R.id.menu_ase, ProfileActivity.class);
+            addMenuListener(currentActivity, R.id.menu_profil, ProfileActivity.class);
         }
     }
 

@@ -1,22 +1,17 @@
 package com.bealder.capgemini;
 
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.webkit.WebView;
 
 
-public class AseActivity extends Activity {
+public class AseActivity extends WebViewActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_webview);
 
         new MixinMenuActivity().addMenuListeners(this);
 
-        WebView webView = (WebView) findViewById(R.id.webView);
-        webView.loadUrl("file:///android_asset/mentions.html");
-
+        webView.loadUrl("http://ase-france.com/app/ase");
     }
 }
